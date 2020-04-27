@@ -1,0 +1,38 @@
+@import "fonts.scss";
+
+input[type="text"] {
+  font-family: "lato-light-regular";
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: left;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 4px solid black;
+  margin-bottom: 20px;
+}
+
+.cRContainers {
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.mainContentEditRecipe {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-family: "lato-black-regular";
+    font-size: "20px";
+  }
+}
+
+.bottomSaveButton {
+  margin-bottom: 150px;
+}

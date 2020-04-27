@@ -1,0 +1,33 @@
+.viewRecipeContent {
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+
+  .receipeContainer {
+    width: 70%;
+  }
+
+  h1,
+  h2 {
+    font-family: "lato-black-regular";
+    letter-spacing: 5px;
+  }
+
+  p {
+    font-family: "caveat-regular";
+    font-size: 110%;
+    letter-spacing: 4px;
+    margin-left: 10px;
+  }
+}
+
+.recipeTop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.recipeBottom {
+  margin-top: 80px;
+}

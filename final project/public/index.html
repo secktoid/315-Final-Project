@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Welcome to Firebase Hosting</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="contentWrapper">
+      <div id="header">
+        <div class="logoImg">
+          <img src="img/logo.png" alt="The Jungle Cook" />
+        </div>
+
+        <div id="navBar">
+          
+          <div class="selected">
+            <a id="homeButt" href="#">Home</a>
+            <div class="linkActiveH active"></div>
+          </div>
+          <div class="selected">
+            <a id="browseButt" href="#">Browse</a>
+            <div class="linkActiveB"></div>
+          </div>
+          <div class="selected">
+            <a id="createButt" href="#">Create Recipe</a>
+            <div class="linkActiveC"></div>
+          </div>
+          <div class="selected selectedLogin">
+            <a href="#">Login</a>
+          </div>
+        </div>
+        
+        <div id="nav-display">
+          <div class='navBarMenu'>
+            <div class="selected">
+          <a id="homeButt" href="#">Home</a>
+          <div class="linkActiveH active"></div>
+        </div>
+        <div class="selected">
+          <a id="browseButt" href="#">Browse</a>
+          <div class="linkActiveB"></div>
+        </div>
+        <div class="selected">
+          <a id="createButt" href="#">Create Recipe</a>
+          <div class="linkActiveC"></div>
+        </div>
+        <div class="selected selectedLogin">
+          <a href="#">Login</a>
+        </div>
+      </div>
+          </div>
+        
+    
+
+      <div class="bars">
+        <img style="width: 50%;" src='img/bars.png'/>
+      </div>
+      </div>
+
+      
+
+      <div id="allContent"></div>
+     
+      </div>
+
+      <!-- <div class="mainContentHome">
+        <div class="indexPinkCircle">
+          <div class="pinkContent">
+            Want to be a Jungle Cook? Go ahead and the kitchen is yours!
+          </div>
+        </div>
+        <div class="indexYellowCircle">
+          <div class="yellowContent">
+            <h4>The Jungle Cook</h4></br>
+            <p>
+              The home to various recipes of your choice. Add your own recipe
+              today and fill the world with joy!
+            </p>
+          </div>
+        </div>
+      
+
+       <div class="mainContentCreateRecipe">
+        <div class="cRTop cRContainers">
+        <p style="font-family: 'caveat-bold'; font-size: '25px';">Hey User, create your recipe!</p>
+          <input id="rImage" type="text" placeholder="Add Recipe Image" />
+          <input id="rName" type="text" placeholder="Recipe Name" />
+          <input id="rDesc" type="text" placeholder="Recipe Description" />
+          <input id="rTime" type="text" placeholder="Recipe Total Time" />
+          <input id="rSize" type="text" placeholder="Recipe Serving Size" />
+        </div>
+        <div class="cRMiddle cRContainers">
+        <p>Enter Ingredients:</p>
+          <div class="ingredientList"><input name="ingreds[]" id="ingredient" type="text" placeholder="Ingredient #1" />
+          </div>
+          <button id="${id}" class="IngredAddInput">add input</button>
+        </div>
+        <div class="cRBottom cRContainers">
+        <p>Enter Instructions:</p>
+          <input id="instruction" type="text" placeholder="Instruction #1" />
+          <div class="instructionList"><input name="instruct[]" id="instruction" type="text" placeholder="Instruction #${id}" />
+          </div>
+          <button id="${id}" class="instructAddInput">add input</button>
+        </div>
+        <button id="${id}" class="saveData">Save Data</button>
+      </div> -->
+
+      <!-- <div class="mainContentBrowse"></div> -->
+    </div> 
+      <div id="footer">
+        <div class="footerLeft">Copyright &copy; 2019 The Junkle Cook</div>
+        <div class="footerMiddle">
+          Login Recipes by Category Privacy and Copyright Create Recipe Your
+          Recipes
+        </div>
+        <div class="footerRight">
+          <img src="img/facebook.svg" alt="facebook logo" />
+          <img src="img/instagram.svg" alt="Instagram logo" />
+        </div>
+      </div>
+    </div>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.14.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.14.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.14.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.8.1/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/7.14.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.14.0/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+    <script src="lib/jquery-3.5.0.min.js"></script>
+    <script src="app/service.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>

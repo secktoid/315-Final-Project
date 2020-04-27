@@ -1,0 +1,17 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "scripts": {
+    "deploy": "firebase deploy --except functions",
+    "sass": "node-sass public/sass/styles.scss public/css/styles.css -w",
+    "firebase": "firebase serve --only hosting"
+  },
+  "author": "Logan Robbins",
+  "license": "ISC"
+}

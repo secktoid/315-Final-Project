@@ -1,0 +1,86 @@
+@import "fonts.scss";
+
+.mainContentBrowse {
+  height: 100vh;
+  background-image: linear-gradient(
+      90deg,
+      rgba(167, 232, 189, 0.6),
+      rgba(167, 232, 189, 0.6)
+    ),
+    url("../img/recipe-hero.jpg");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.recipes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  .recipeBox {
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+
+    .rPLeft {
+      width: 300px;
+      height: 263px;
+      background-image: url(../img/recipe-burger.jpg);
+      background-size: cover;
+      background-position: 50%;
+      border-radius: 24px;
+    }
+
+    .rPRight {
+      width: 224px;
+      height: 263px;
+      background-color: white;
+      border-radius: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .rName {
+    }
+
+    .recipeText {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      font-family: "lato-regular";
+    }
+  }
+}
+
+.timeServingsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+
+  .timeP {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .timeImages {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+}
